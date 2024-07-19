@@ -1,0 +1,9 @@
+# Normalize line endings for Rust and other text files
+*.rs text
+Cargo.lock text
+Cargo.toml text
+*.toml text
+
+# Normalize line endings for files in target directory
+target/**/*.d text
+target/CACHEDIR.TAG text
